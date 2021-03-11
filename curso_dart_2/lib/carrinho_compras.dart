@@ -14,8 +14,11 @@ main() {
       condicao = false;
     } else if (text == 'imprimir') {
       print(produtos);
+      print("\n");
     } else {
       produtos.add(text);
+      print("\x1B[2J\x1B[0;0H"); //Codigo para limpar a tela do cmd
+
     }
   }
 }
