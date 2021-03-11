@@ -2,6 +2,8 @@ import 'dart:io';
 
 main() {
   bool condicao = true;
+
+  //Os arrays começam com []
   var nome = [];
 
   print('============Programa Iniciado============');
